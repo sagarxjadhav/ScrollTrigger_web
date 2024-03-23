@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(200, 245, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(228, 65, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle{
+    height: 300px;
+    border-radius: 50%;
+    width: 300px;
+/* radial-gradient try as well */
+    background: linear-gradient(green , red , pink, blue) ;    
+}
